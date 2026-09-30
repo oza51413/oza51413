@@ -7,6 +7,8 @@
 
 - 🌱 I’m currently studying for **CompTIA A+, MS365 Copilot & Agent Administration Fundamentals (AB-900)**
 
+- 🔭 I’m also working on **Extracting Firmware through JTAG on a Motorola SURFBOARD SBG6580**
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/aziel orozco" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aziel orozco" height="30" width="40" /></a>
