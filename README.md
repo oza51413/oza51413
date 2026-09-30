@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=oza51413&label=Profile%20views&color=0e75b6&style=flat" alt="oza51413" /> </p>
 
-- 🔭 I’m currently working on **Automating IT operations using a Hak5 Rubber Ducky**
+- 🔭 I’m currently working on **Expanding my Active Directory Lab**
 
 - 🌱 I’m currently studying for **CompTIA A+, MS365 Copilot & Agent Administration Fundamentals (AB-900)**
 
