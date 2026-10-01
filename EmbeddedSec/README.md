@@ -1,9 +1,10 @@
 # Embedded Security	
 
 # Recon		
-[] Target's Intended Functionality		
-[] Define Goals: What do i want to do with this device?			
-[] FCC documentation fccid.io		
+
+* Target's Intended Functionality		
+* Define Goals: What do i want to do with this device?			
+* FCC documentation fccid.io		
 
 [] Open Case		
 	- ID Chips(part numbers, datasheets)		
