@@ -17,27 +17,30 @@
 # Foothold		
 
 ## Signal Analysis		
-	* proto in use?		
-	* logic analyzer or oscilloscope		
-		- decode proto using Pulseview/sigrok		
-	* voltage fluctuations w multimeter(continuity mode)		
+
+* proto in use?		
+* logic analyzer or oscilloscope		
+	- decode proto using Pulseview/sigrok		
+* voltage fluctuations w multimeter(continuity mode)		
+
 
 ## Signal Interposition				
-	* can you interface w identified components?		
-	* Extract flash chips via(dump firmware)		
-		- SPI		
-			- In Circuit Reading or Chip Removal		
-		- I2C		
-	* Connect to debug interfaces		
-		- UART(Universal Asynchronous Receiver Transmitter)		
-			- RX,TX,GND		
-		- JTAG(Joint Test Access Group)		
-			- JTAGEnum		
-			- TCK, TMS, TDI, TDO, nTRST		
-			- can dump firmware		
-		- SWD		
-			- SWDIO, SWCLK, GND, VCC		
-			- can dump firmware	
+
+* can you interface w identified components?		
+* Extract flash chips via(dump firmware)		
+	- SPI		
+		- In Circuit Reading or Chip Removal		
+	- I2C		
+* Connect to debug interfaces		
+	- UART(Universal Asynchronous Receiver Transmitter)		
+		- RX,TX,GND		
+	- JTAG(Joint Test Access Group)		
+		- JTAGEnum		
+		- TCK, TMS, TDI, TDO, nTRST		
+		- can dump firmware		
+	- SWD		
+		- SWDIO, SWCLK, GND, VCC		
+		- can dump firmware	
 
 
 
