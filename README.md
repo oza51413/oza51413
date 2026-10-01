@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **Expanding my Active Directory Lab**
 
-- 🌱 I’m currently studying for **CompTIA A+, MS365 Copilot & Agent Administration Fundamentals (AB-900)**
+- 🌱 I’m currently studying for the **CompTIA A+**
 
 - 🔭 I’m also working on **Extracting Firmware through JTAG on a Motorola SURFBOARD SBG6580**
 
