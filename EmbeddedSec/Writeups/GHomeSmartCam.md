@@ -1,7 +1,7 @@
 # BLOG 1: Extracting SPI Flash from a GHome Smart Camera 		
 
 
-[!camera](./EmbeddedSec/Writeups/imgs/GHOMESmartCam/camera.png)		
+[!camera](oza51413/EmbeddedSec/Writeups/imgs/GHOMESmartCam/camera.png)		
 
 
 ## Target's Intended Functionality & Our Goal			
