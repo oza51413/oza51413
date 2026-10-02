@@ -15,7 +15,7 @@
 
 ## Signal Analysis		
 
-[!JtagPads](./imgs/MotorolaRouter/Jtagpadsrouter.jpg)		
+![JtagPads](./imgs/MotorolaRouter/Jtagpadsrouter.jpg)		
 
 
 ### Voltage Tests	
