@@ -7,30 +7,30 @@
 ## Chip Identification		
 
 
-![RouterBoard](./EmbeddedSec/Writeups/imgs/MotorolaRouter/FullViewRouter.jpg)		
-![FlashChip](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Flashchiprouter.jpg)		
-![BroadcomChip](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Broadcomchiprouter.jpg)			
-![ZentelChip](./EmbeddedSec/Writeups/imgs/MotorolaRouter/ZentelChipRouter.jpg)		
+![RouterBoard](./imgs/MotorolaRouter/FullViewRouter.jpg)		
+![FlashChip](./imgs/MotorolaRouter/Flashchiprouter.jpg)		
+![BroadcomChip](./imgs/MotorolaRouter/Broadcomchiprouter.jpg)			
+![ZentelChip](./imgs/MotorolaRouter/ZentelChipRouter.jpg)		
 
 
 ## Signal Analysis		
 
-[!JtagPads](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Jtagpadsrouter.jpg)		
+[!JtagPads](./imgs/MotorolaRouter/Jtagpadsrouter.jpg)		
 
 
 ### Voltage Tests	
 
-[!Twelve](./EmbeddedSec/Writeups/imgs/MotorolaRouter/12vtestpsdrouter.jpg)		
-[!OtherTwelve](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Other12vtestpadrouter.jpg)		
-[!Two](./EmbeddedSec/Writeups/imgs/MotorolaRouter/2vtestpadrouter.jpg)		
-[!Three](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Other3vtestpadrouter.jpg)		
-[!JtagTest](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Jtagpadvoltagetest.jpg)		
-[!JtagLabeled](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Labeledjtagvoltagerouter.PNG)		
+![Twelve](./imgs/MotorolaRouter/12vtestpsdrouter.jpg)		
+![OtherTwelve](./imgs/MotorolaRouter/Other12vtestpadrouter.jpg)		
+![Two](./imgs/MotorolaRouter/2vtestpadrouter.jpg)		
+![Three](./imgs/MotorolaRouter/Other3vtestpadrouter.jpg)		
+![JtagTest](./imgs/MotorolaRouter/Jtagpadvoltagetest.jpg)		
+![JtagLabeled](./imgs/MotorolaRouter/Labeledjtagvoltagerouter.PNG)		
 
 ### Resistance Tests: Identifying JTAG	
 
-[!MultimeterResistance](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Resistancetestmultimeterrouter.jpg)		
-[!ResistanceTest](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Labeledresistancetestrouter.PNG)		
+![MultimeterResistance](./imgs/MotorolaRouter/Resistancetestmultimeterrouter.jpg)		
+![ResistanceTest](./imgs/MotorolaRouter/Labeledresistancetestrouter.PNG)		
 
 
 ## Signal Interposition: Interacting with JTAG		
