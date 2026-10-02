@@ -7,7 +7,7 @@
 ## Chip Identification		
 
 
-![RouterBoard](./imgs/MotorolaRouter/FullViewRouter.jpg)		
+![RouterBoard](./imgs/MotorolaRouter/FullViewRouter.HEIC)		
 ![FlashChip](./imgs/MotorolaRouter/Flashchiprouter.jpg)		
 ![BroadcomChip](./imgs/MotorolaRouter/Broadcomchiprouter.jpg)			
 ![ZentelChip](./imgs/MotorolaRouter/ZentelChipRouter.jpg)		
