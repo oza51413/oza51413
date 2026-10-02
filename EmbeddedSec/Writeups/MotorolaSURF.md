@@ -37,7 +37,18 @@
 
 ### Determing JTAG Pinout with JTAGenum.sh		
 
+`curl -L -O https://github.com/cyphunk/JTAGenum/blob/master/JTAGenum.sh`		
+
+
 ### Determining Instruction Length with UrJTAG		
+	- https://sourceforge.net/projects/urjtag/		
+
+```		
+./configure		
+make		
+make install			
+```		
+
 
 ### JTAG Debugging via OpenOCD				
 
