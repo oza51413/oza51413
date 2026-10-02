@@ -1,4 +1,4 @@
-# BLOG 2: Extracting Firmware from a Motorola SURF Router through JTAG		
+# B10G 2: Extracting Firmware from a Motorola SURF Router through JTAG		
 
 
 ## Target's Intended Functionality & Our Goal		
@@ -35,15 +35,11 @@
 
 ## Signal Interposition: Interacting with JTAG		
 
-* Tools		
-	- JtagEnum
-	- UrJtag	
+### Determing JTAG Pinout with JTAGenum.sh		
 
+### Determining Instruction Length with UrJTAG		
 
-
-### Firmware Extraction through JTAG		
-
-
+### JTAG Debugging via OpenOCD				
 
 
 

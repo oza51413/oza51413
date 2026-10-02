@@ -1,4 +1,4 @@
-# BLOG 1: Extracting SPI Flash from a GHome Smart Camera 		
+# B10G 1: Extracting SPI Flash from a GHome Smart Camera 		
 
 
 ![camera](./imgs/GHOMESmartCam/camera.png)		
