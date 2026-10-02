@@ -7,7 +7,7 @@
 ## Chip Identification		
 
 
-![RouterBoard](./imgs/MotorolaRouter/FullViewRouter.HEIC)		
+![RouterBoard](./imgs/MotorolaRouter/FullViewRouter.jpg)		
 ![FlashChip](./imgs/MotorolaRouter/Flashchiprouter.jpg)		
 ![BroadcomChip](./imgs/MotorolaRouter/Broadcomchiprouter.jpg)			
 ![ZentelChip](./imgs/MotorolaRouter/ZentelChipRouter.jpg)		
@@ -25,12 +25,12 @@
 ![Two](./imgs/MotorolaRouter/2vtestpadrouter.jpg)		
 ![Three](./imgs/MotorolaRouter/Other3vtestpadrouter.jpg)		
 ![JtagTest](./imgs/MotorolaRouter/Jtagpadvoltagetest.jpg)		
-![JtagLabeled](./imgs/MotorolaRouter/Labeledjtagvoltagerouter.PNG)		
+![JtagLabeled](./imgs/MotorolaRouter/Labeledjtagvoltagerouter.jpg)		
 
 ### Resistance Tests: Identifying JTAG	
 
 ![MultimeterResistance](./imgs/MotorolaRouter/Resistancetestmultimeterrouter.jpg)		
-![ResistanceTest](./imgs/MotorolaRouter/Labeledresistancetestrouter.PNG)		
+![ResistanceTest](./imgs/MotorolaRouter/Labeledresistancetestrouter.jpg)		
 
 
 ## Signal Interposition: Interacting with JTAG		
