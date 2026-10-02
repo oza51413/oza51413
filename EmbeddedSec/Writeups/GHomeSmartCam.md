@@ -14,7 +14,7 @@
 	
 ![OtherChip](./imgs/GHOMESmartCam/OtherCameraChip.jpg)		
 
-![Winbond](./imgs/GHOMESmartCam/CameraWinbondChip.png)		
+![Winbond](./imgs/GHOMESmartCam/CameraWinbondChip.jpg)		
 
 
 ## Signal Interposition: Extracting SPI Flash 		
