@@ -23,7 +23,7 @@
 [!Twelve](./EmbeddedSec/Writeups/imgs/MotorolaRouter/12vtestpsdrouter.jpg)		
 [!OtherTwelve](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Other12vtestpadrouter.jpg)		
 [!Two](./EmbeddedSec/Writeups/imgs/MotorolaRouter/2vtestpadrouter.jpg)		
-[!Three)(./EmbeddedSec/Writeups/imgs/MotorolaRouter/Other3vtestpadrouter.jpg)		
+[!Three](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Other3vtestpadrouter.jpg)		
 [!JtagTest](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Jtagpadvoltagetest.jpg)		
 [!JtagLabeled](./EmbeddedSec/Writeups/imgs/MotorolaRouter/Labeledjtagvoltagerouter.PNG)		
 
