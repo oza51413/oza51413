@@ -37,7 +37,48 @@
 
 ### Determing JTAG Pinout with JTAGenum.sh		
 
-`curl -L -O https://github.com/cyphunk/JTAGenum/blob/master/JTAGenum.sh`		
+`curl -L -O https://raw.githubusercontent.com/cyphunk/JTAGenum/refs/heads/master/JTAGenum.sh`			
+
+
+* GND Pins (2,13)		
+	- 0.0 ohms		
+
+* Active Signal/pull up pins(3,4,6,10)		
+	- read 3.3v active, and show a higher resistance 140+ ohms	
+	- indicates theyre connected to the internal pull up resistors 	
+	- our prime JTAG candidates (TMS,TCK,TDI,TRST)		
+
+* Main power pin(1,14)	
+	- read 3.3v, but showed low resistance of 0.4+ ohms	
+
+* Floating pins (5,7,8,9,11,12)	
+	- reads "1", means an open loop 
+	- one is likely our TDO pin 
+	- TDO on an idle chip is floating until it receives command to output data	
+
+* Wiring our Orange Pi Zero 2w		
+	1. Reference GND	
+		- connect pin 2 or 13 from router to Pin 6(GND) on our pi		
+
+	2. Isolate pwr		
+		- we're going to avoid connecting pins 1,14 on the router to anything because theyre tied to the main power line	
+		- this avoids causing a short	
+
+	3. Probing		
+		- connecting our pi test/gpio pins to all that measured 140+ ohms	
+		- Pin 2 or 13 on router to pin 6(GND) on pi	
+		- Router pins(TMS,TCK,TDI TRST candidates): 3,4,6,10 -> pi gpio test	
+		- Pi gpio test pins: ???	
+		- Router pins: 5,7,9,11,12 (TDO candidate) -> Pi gpio test	 
+
+
+		
+* Editing JTAGEnum.sh script		
+
+
+
+
+	
 
 
 ### Determining Instruction Length with UrJTAG		
