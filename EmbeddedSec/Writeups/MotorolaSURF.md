@@ -35,9 +35,10 @@
 
 ## Signal Interposition: Interacting with JTAG		
 
-### Determing JTAG Pinout with JTAGenum.sh		
+### Determing JTAG Pinout with go-jtagenum		
+		
 
-`curl -L -O https://raw.githubusercontent.com/cyphunk/JTAGenum/refs/heads/master/JTAGenum.sh`			
+- https://github.com/gremwell/go-jtagenum	
 
 
 * GND Pins (2,13)		
@@ -67,18 +68,43 @@
 	3. Probing		
 		- connecting our pi test/gpio pins to all that measured 140+ ohms	
 		- Pin 2 or 13 on router to pin 6(GND) on pi	
-		- Router pins(TMS,TCK,TDI TRST candidates): 3,4,6,10 -> pi gpio test	
-		- Pi gpio test pins: 7,11,13,15 (find way to edit pi and script to match)			
+		- Router pins(TMS,TCK,TDI TRST candidates): 3,4,6,10 -> pi gpio test
+		- Pi gpio test pins: 7,11,13,15 (find way to edit pi and script to match
+
+		(separate test)			
 		- Router pins: 5,7,9,11,12 (TDO candidate) -> Pi gpio test	 
 
 
 		
-* Editing JTAGEnum.sh script		
+* Preparing pin config in JSON format		
+	- GND pin connected as well of course	
+
+	- pin# is our pins on the router 
+		- so pin1=3, pin2=4, pin3=6, pin4=10	
+
+	- actual value is gpio on opi 2w		
+		- below	
+`{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }`		
 
 
 
+* Check for loops		
 
-	
+`go-jtagenum -pins '{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }' -command check_loopback`
+
+
+* Enumeration		
+`go-jtagenum -pins '{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }' -command scan_bypass`		
+
+
+* Dump IDCODE	
+`go-jtagenum -pins '{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }' -command scan_idcode`
+
+
+* Verify determined pins		
+`go-jtagenum -known-pins '{ "tdi": #, "tdo": #, "tms": #, "tck": #, "trst": #}' -command test_bypass`		
+
+`go-jtagenum -known-pins '{ "tdi": #, "tdo": #, "tms": #, "tck": #, "trst": #}' -command test_idcode`	
 
 
 ### Determining Instruction Length with UrJTAG		
