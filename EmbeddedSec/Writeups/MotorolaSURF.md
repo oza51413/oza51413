@@ -68,7 +68,7 @@
 		- connecting our pi test/gpio pins to all that measured 140+ ohms	
 		- Pin 2 or 13 on router to pin 6(GND) on pi	
 		- Router pins(TMS,TCK,TDI TRST candidates): 3,4,6,10 -> pi gpio test	
-		- Pi gpio test pins: ???	
+		- Pi gpio test pins: 7,11,13,15 (find way to edit pi and script to match)			
 		- Router pins: 5,7,9,11,12 (TDO candidate) -> Pi gpio test	 
 
 
