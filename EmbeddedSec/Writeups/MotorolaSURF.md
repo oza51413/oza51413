@@ -107,6 +107,20 @@
 `go-jtagenum -known-pins '{ "tdi": #, "tdo": #, "tms": #, "tck": #, "trst": #}' -command test_idcode`	
 
 
+### To-Do	
+	- learn about gpio pi w DMM	
+	- resolder if necessary verify connectivity w DMM	
+	- Attempt 1: try gojtagenum by placing in open pads	
+	- Attempt 2: desolder flash chip into breakout board	
+		- solder headers onto 16 pin breakoutboard	
+		- research how to interact (flashrom, gpio pins?, bread board?)		
+	- if all fails, document on github, resolder flash chip onto router(if not possible keep flash chip, scrap router)	
+		- if possible resolder, keep trying with go jtag enum, would have to buy 14 pin header	
+
+
+
+
+
 ### Determining Instruction Length with UrJTAG		
 	- https://sourceforge.net/projects/urjtag/		
 
