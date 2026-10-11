@@ -111,12 +111,11 @@
 	- learn about gpio pi w DMM	
 	- resolder if necessary verify connectivity w DMM	
 	- Attempt 1: try gojtagenum by placing in open pads	
-	- Attempt 2: desolder flash chip into breakout board	
+	- Attempt 2: 14 pin header soldered onto router			
+	- Attempt 3: desolder flash chip into breakout board	
 		- solder headers onto 16 pin breakoutboard	
 		- research how to interact (flashrom, gpio pins?, bread board?)		
-	- if all fails, document on github, resolder flash chip onto router(if not possible keep flash chip, scrap router)	
-		- if possible resolder, keep trying with go jtag enum, would have to buy 14 pin header	
-
+	- if all fails, document on github	
 
 
 
