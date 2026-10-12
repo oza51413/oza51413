@@ -84,38 +84,33 @@
 
 	- actual value is gpio on opi 2w		
 		- below	
-`{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }`		
+`{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }`		
+
+* Good pi pins		
+	- 2,5,10,23,27,29,31,33,35,37
+	- 14(GND)	
 
 
+35,33,31,29	
+GND pin is 14	
 
 * Check for loops		
 
-`go-jtagenum -pins '{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }' -command check_loopback`
+`go-jtagenum -pins '{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }' -command check_loopback -driver gpiod`
 
 
 * Enumeration		
-`go-jtagenum -pins '{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }' -command scan_bypass`		
+`go-jtagenum -pins '{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }' -command scan_bypass -driver gpiod`		
 
 
 * Dump IDCODE	
-`go-jtagenum -pins '{ "pin1": 7, "pin2": 11, "pin3": 13, "pin4": 15 }' -command scan_idcode`
+`go-jtagenum -pins '{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }' -command scan_idcode -driver gpiod`
 
 
 * Verify determined pins		
 `go-jtagenum -known-pins '{ "tdi": #, "tdo": #, "tms": #, "tck": #, "trst": #}' -command test_bypass`		
 
 `go-jtagenum -known-pins '{ "tdi": #, "tdo": #, "tms": #, "tck": #, "trst": #}' -command test_idcode`	
-
-
-### To-Do	
-	- learn about gpio pi w DMM	
-	- resolder if necessary verify connectivity w DMM	
-	- Attempt 1: try gojtagenum by placing in open pads	
-	- Attempt 2: 14 pin header soldered onto router			
-	- Attempt 3: desolder flash chip into breakout board	
-		- solder headers onto 16 pin breakoutboard	
-		- research how to interact (flashrom, gpio pins?, bread board?)		
-	- if all fails, document on github	
 
 
 
