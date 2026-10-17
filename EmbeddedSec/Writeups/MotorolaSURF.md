@@ -35,10 +35,7 @@
 
 ## Signal Interposition: Interacting with JTAG		
 
-### Determing JTAG Pinout with go-jtagenum		
-		
-
-- https://github.com/gremwell/go-jtagenum	
+### Determing JTAG Pinout				
 
 
 * GND Pins (2,13)		
@@ -75,44 +72,18 @@
 		- Router pins: 5,7,9,11,12 (TDO candidate) -> Pi gpio test	 
 
 
-		
-* Preparing pin config in JSON format		
-	- GND pin connected as well of course	
+### Buidling our own tool		
 
-	- pin# is our pins on the router 
-		- so pin1=3, pin2=4, pin3=6, pin4=10	
+sudo apt update	
+sudo apt install python3-lgio gpiod
+	- installing gpio lib for rpi zero 2w	
 
-	- actual value is gpio on opi 2w		
-		- below	
-`{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }`		
+python3 -c "import lgpio; print('lgpio import OK')"		
+	- check if python can import 
 
-* Good pi pins		
-	- 2,5,10,23,27,29,31,33,35,37
-	- 14(GND)	
-
-
-35,33,31,29	
-GND pin is 14	
-
-* Check for loops		
-
-`go-jtagenum -pins '{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }' -command check_loopback -driver gpiod`
-
-
-* Enumeration		
-`go-jtagenum -pins '{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }' -command scan_bypass -driver gpiod`		
-
-
-* Dump IDCODE	
-`go-jtagenum -pins '{ "pin1": 5, "pin2": 12, "pin3": 23, "pin4": 27 }' -command scan_idcode -driver gpiod`
-
-
-* Verify determined pins		
-`go-jtagenum -known-pins '{ "tdi": #, "tdo": #, "tms": #, "tck": #, "trst": #}' -command test_bypass`		
-
-`go-jtagenum -known-pins '{ "tdi": #, "tdo": #, "tms": #, "tck": #, "trst": #}' -command test_idcode`	
-
-
+gpiodetect	
+gpioinfo	
+	- check which gpio devices kernel exposes		
 
 
 ### Determining Instruction Length with UrJTAG		
