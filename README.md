@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Aziel Orozco</h1>
-<h3 align="center">Aspiring IT Help Desk Engineer & Embedded Security Hobbyist</h3>
+<h3 align="center">Aspiring Embedded Security Specialist</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=oza51413&label=Profile%20views&color=0e75b6&style=flat" alt="oza51413" /> </p>
 
-- 🔭 I’m currently working on **Expanding my Active Directory Lab**
+- 🔭 I’m currently working on **Extracting Firmware through JTAG on a Motorola SURFBOARD SBG6580**
 
-- 🌱 I’m currently studying for the **CompTIA A+**
+- 🌱 I’m currently studying for TCM's **Practical IoT Pentest Associate(PIPA) Certification**
 
-- 🔭 I’m also working on **Extracting Firmware through JTAG on a Motorola SURFBOARD SBG6580**
+- 🔭 I’m also working on **Building a Python toolkit for Hardware Hacking Applications on a Raspberry Pi Zero 2w**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
